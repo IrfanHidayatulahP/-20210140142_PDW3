@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(/assets/14731307_rm218-bb-07.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+.cardbox {
+    border-radius: 45px;
+    box-shadow: 0 25px 45px rgba(181, 68, 68, 0.766);
+    padding: 20px;
+    text-align: center;
+    width: 75%;
+    height: auto;
+    padding: 40px;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid rgb(0, 0, 0);
+    position: relative;
+    background-image: linear-gradient(to right, #ffcc00, #ff9900);
+    opacity: 0.8;
+}
+
+h2 {
+    margin-top: 0;
+    font-family: "Ubuntu" sans-serif;
+    color: black;
+}
+
+p {
+    margin-bottom: 0;
+    font-family: "Ubuntu" sans-serif;
+    color: darkslategrey;
+}
+
+footer{
+    font-family: "Ubuntu" sans-serif;
+    color: darkslategrey;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: lightgrey;
+}
