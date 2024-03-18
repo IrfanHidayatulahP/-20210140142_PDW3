@@ -4,20 +4,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./main/style.css">
     <title>Pertemuan 3 PDW</title>
 </head>
 <body>
+    <![CDATA[
+    // membuat class container
+    ]]>
     <div class="container">
+        <![CDATA[
+        // membuat class loginForm
+        ]]>
+        <div class="loginForm">
+            <div class="Login">
+                <button onclick="openLoginForm()">
+                    <span class="form">Login</span>
+                </button>
+            </div>
+        </div>
+        <![CDATA[
+        // membuat class cardbox
+        ]]>
         <div class="cardbox">
+            <!-- Menambahkan gambar -->
             <img src="/assets/images.jpeg" alt="Ini Kocheng" />
+            <!-- membuat header -->
             <h2>Ini Kocheng</h2>
+            <!-- menambahkan paragraf -->
             <p>Kucing disebut juga kucing domestik atau kucing rumah (nama ilmiah: Felis silvestris catus atau
                 Felis catus) adalah sejenis mamalia karnivora dari keluarga Felidae. Kata "kucing" biasanya merujuk
                 kepada "kucing" yang telah dijinakkan, tetapi bisa juga bisa merujuk kepada "kucing besar" seperti
-                singa dan harimau yang juga termasuk jenis kucing.p>
+                singa dan harimau yang juga termasuk jenis kucing.</p>
+            <!-- Menambahkan tombol klik -->
+            <button onclick="Klik()">Klik</button>
+            <!-- Menambahkan keterangan waktu -->
+            <p id="waktu"></p>
+            <!-- menambahkan footer -->
             <footer>It's Quinn</footer>
+            <script>
+                function Klik() {
+                    alert("Menyala Abangkuhhh");
+                }
+            </script>
         </div>
     </div>
+    <script src="./script/script.js"></script>
 </body>
 </html>

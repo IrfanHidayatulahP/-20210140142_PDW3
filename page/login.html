@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../main/style.css">
+    <title>loginForm</title>
+</head>
+<body>
+    <!-- membuat class formcardbox -->
+    <div class="formcardbox">
+        <!-- Membuat form login -->
+        <form id="loginForm">
+            <!-- membuat formgroup -->
+            <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <!-- membuat formgroup -->
+            <div class="form-group">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <!-- membuat tombol submit untuk login -->
+            <button type="submit" onclick="Login()">Login</button>
+        </form>
+    </div>
+    <script src="../script/script.js"></script>
+</body>
+</html>
